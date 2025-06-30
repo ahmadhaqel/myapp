@@ -1,0 +1,29 @@
+/* src/fonts.css */
+
+/* 1️⃣ Brand script-like logo font */
+@font-face {
+  font-family: "Galada";
+  src: url("./assets/fonts/Galada/Galada-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2️⃣ Clean sans for headings */
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins/Poppins-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 3️⃣ Elegant serif for accents */
+@font-face {
+  font-family: "Playfair";
+  src: url("./assets/fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
